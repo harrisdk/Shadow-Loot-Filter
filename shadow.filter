@@ -1,0 +1,179 @@
+# Shadow's Loot Filter
+# Version 1.6, 7-10-2015
+
+#----- Unique -----#
+Show
+	Rarity = Unique
+	SetTextColor 0 0 0
+	SetBorderColor 128 128 128
+	SetBackgroundColor 153 101 21
+
+#----- Gems -----#
+Show
+	Class Gem
+	Quality >= 12
+	SetTextColor 255 255 255
+	SetBorderColor 153 101 21
+	SetBackgroundColor 0 0 255
+	
+Show
+	Class Gem
+	Quality >= 6
+	SetTextColor 255 255 255
+	SetBorderColor 128 128 128
+	SetBackgroundColor 0 0 255
+	
+Show
+	Class Gem
+	SetTextColor 255 255 255
+	SetBorderColor 0 0 0
+	SetBackgroundColor 0 0 255
+	
+#----- Currency -----#
+Show
+	BaseType "Mirror of Kalandra"
+	SetTextColor 255 255 255
+	SetBorderColor 153 101 21
+	SetBackgroundColor 200 0 0
+	SetFontSize 44
+
+Show
+	BaseType "Exalted Orb" "Eternal Orb" "Divine Orb"
+	SetTextColor 255 255 255
+	SetBorderColor 153 101 21
+	SetBackgroundColor 200 0 0
+	
+Show
+	BaseType "Chaos Orb" "Gemcutter's Prism" "Regal Orb" "Orb of Alchemy" "Vaal Orb"
+	SetTextColor 255 255 255
+	SetBorderColor 128 128 128
+	SetBackgroundColor 200 0 0
+	
+Show
+	BaseType "Scroll"
+	SetTextColor 255 255 255
+	SetBorderColor 0 0 0
+	SetBackgroundColor 32 64 0
+
+Show
+	Class Currency
+	SetTextColor 255 255 255
+	SetBorderColor 0 0 0
+	SetBackgroundColor 128 0 0
+	SetFontSize 28
+	
+Show
+	Class Map
+	DropLevel >= 75
+	SetTextColor 255 255 255
+	SetBorderColor 128 128 128
+	SetBackgroundColor 128 0 128
+	
+Show
+	Class Map
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 128 0 128
+	
+Show
+	Class Jewel
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 0 128 128
+	
+#----- Vendor Recipes -----#
+Show
+	Sockets = 6
+	SetTextColor 255 255 255
+	SetBorderColor 128 128 128
+	SetBackgroundColor 160 0 0
+
+Show
+	Sockets >= 3
+	SocketGroup RGB
+	SetTextColor 128 0 128
+	SetBorderColor 0 0 0
+	SetBackgroundColor 128 128 128
+	
+#----- Chance & Crafting Bases -----#
+Show
+	BaseType "Occultist's Vestment" "Spine Bow" "Prophecy Wand" "Judgement Staff" "Amethyst Ring"
+	Rarity Normal
+	SetTextColor 200 0 0
+	SetBorderColor 128 128 128
+	SetBackgroundColor 0 0 0
+	
+Show
+	BaseType "Moon Staff" "Dragon Mace" "Maraketh Bow" "Tiger Hook" "Morning Star" "Sacrificial Garb"
+	Rarity Normal
+	SetTextColor 0 200 0
+	SetBorderColor 128 128 128
+	SetBackgroundColor 0 0 0
+	
+Show
+	BaseType "Death Bow" "Decimation Bow" "Harbinger Bow" "Platinum Kris" "Golden Kris" "Copper Kris" "Skean" "Ambusher" "Demon Dagger" "Stiletto" "Siege Axe" "Infernal Axe" "Void Axe" "Terror Claw" "Imperial Claw" "Midnight Blade" "Harpy Rapier" "Infernal Sword"
+	Rarity Normal
+	ItemLevel >= 79
+	SetTextColor 128 0 0
+	SetBorderColor 128 128 128
+	SetBackgroundColor 255 255 255
+
+Show
+	BaseType "Death Bow" "Decimation Bow" "Harbinger Bow" "Platinum Kris" "Golden Kris" "Copper Kris" "Skean" "Ambusher" "Demon Dagger" "Stiletto" "Siege Axe" "Infernal Axe" "Void Axe" "Terror Claw" "Imperial Claw" "Midnight Blade" "Harpy Rapier" "Infernal Sword"
+	Rarity Normal
+	ItemLevel = 78
+	SetTextColor 0 128 0
+	SetBorderColor 128 128 128
+	SetBackgroundColor 255 255 255
+	
+Show
+	BaseType "Death Bow" "Decimation Bow" "Harbinger Bow" "Platinum Kris" "Golden Kris" "Copper Kris" "Skean" "Ambusher" "Demon Dagger" "Stiletto" "Siege Axe" "Infernal Axe" "Void Axe" "Terror Claw" "Imperial Claw" "Midnight Blade" "Harpy Rapier" "Infernal Sword"
+	Rarity Normal
+	ItemLevel = 77
+	SetTextColor 0 0 128
+	SetBorderColor 128 128 128
+	SetBackgroundColor 255 255 255
+	
+#----- Show General -----#
+Show
+	Rarity = Rare
+	ItemLevel >= 78
+	SetTextColor 0 128 128
+	SetBorderColor 128 128 128
+	
+Show
+	Rarity = Rare
+	SetTextColor 255 255 0
+	SetBorderColor 128 128 128
+
+Show
+	Class Flask
+	Rarity = Magic
+	SetTextColor 0 0 200
+	SetBorderColor 128 128 128
+	SetFontSize 28
+	
+Show
+	Class "Utility Flask"
+	Rarity = Magic
+	SetTextColor 0 0 200
+	SetBorderColor 128 128 128
+	SetFontSize 28
+	
+Show
+	Class "Utility Flask"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 128 128 128
+	SetFontSize 28
+	
+Show
+	Class Flask
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 128 128 128
+	SetFontSize 20
+	
+Show
+	SetTextColor 64 64 64
+	SetFontSize 20
