@@ -1,5 +1,5 @@
 # Shadow's Loot Filter
-# Version 1.6, 7-10-2015
+# Version 1.7, 7-11-2015
 
 #----- Unique -----#
 Show
@@ -80,6 +80,12 @@ Show
 	SetTextColor 0 0 0
 	SetBorderColor 0 0 0
 	SetBackgroundColor 0 128 128
+	
+Show
+	Class "Divination Card"
+	SetTextColor 255 255 255
+	SetBorderColor 128 128 128
+	SetBackgroundColor 128 0 128
 	
 #----- Vendor Recipes -----#
 Show
