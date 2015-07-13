@@ -1,5 +1,5 @@
 # Shadow's Loot Filter
-# Version 1.7, 7-11-2015
+# Version 1.8, 7-12-2015
 
 #----- Unique -----#
 Show
@@ -11,14 +11,7 @@ Show
 #----- Gems -----#
 Show
 	Class Gem
-	Quality >= 12
-	SetTextColor 255 255 255
-	SetBorderColor 153 101 21
-	SetBackgroundColor 0 0 255
-	
-Show
-	Class Gem
-	Quality >= 6
+	Quality > 0
 	SetTextColor 255 255 255
 	SetBorderColor 128 128 128
 	SetBackgroundColor 0 0 255
@@ -27,18 +20,19 @@ Show
 	Class Gem
 	SetTextColor 255 255 255
 	SetBorderColor 0 0 0
-	SetBackgroundColor 0 0 255
+	SetBackgroundColor 0 0 128
+	SetFontSize 28
 	
 #----- Currency -----#
 Show
-	BaseType "Mirror of Kalandra"
+	BaseType "Mirror of Kalandra" "Exalted Orb"
 	SetTextColor 255 255 255
 	SetBorderColor 153 101 21
 	SetBackgroundColor 200 0 0
 	SetFontSize 44
 
 Show
-	BaseType "Exalted Orb" "Eternal Orb" "Divine Orb"
+	BaseType "Eternal Orb" "Divine Orb"
 	SetTextColor 255 255 255
 	SetBorderColor 153 101 21
 	SetBackgroundColor 200 0 0
@@ -54,6 +48,7 @@ Show
 	SetTextColor 255 255 255
 	SetBorderColor 0 0 0
 	SetBackgroundColor 32 64 0
+	SetFontSize 28
 
 Show
 	Class Currency
@@ -93,6 +88,13 @@ Show
 	SetTextColor 255 255 255
 	SetBorderColor 128 128 128
 	SetBackgroundColor 160 0 0
+	
+Show
+	LinkedSockets >= 5
+	SetTextColor 255 255 255
+	SetBorderColor 128 128 128
+	SetBackgroundColor 0 0 0
+	SetFontSize 24
 
 Show
 	Sockets >= 3
