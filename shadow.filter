@@ -1,5 +1,5 @@
 # Shadow's Loot Filter
-# Version 1.9, 7-16-2015
+# Version 2.0, 7-17-2015
 
 #----- Unique -----#
 Show
@@ -7,6 +7,7 @@ Show
 	SetTextColor 0 0 0
 	SetBorderColor 128 128 128
 	SetBackgroundColor 153 101 21
+	SetFontSize 34
 
 #----- Gems -----#
 Show
@@ -15,6 +16,7 @@ Show
 	SetTextColor 255 255 255
 	SetBorderColor 128 128 128
 	SetBackgroundColor 0 0 255
+	SetFontSize 34
 	
 Show
 	Class Gem
@@ -29,25 +31,27 @@ Show
 	SetTextColor 255 255 255
 	SetBorderColor 153 101 21
 	SetBackgroundColor 200 0 0
-	SetFontSize 44
+	SetFontSize 45
 
 Show
 	BaseType "Eternal Orb" "Divine Orb"
 	SetTextColor 255 255 255
 	SetBorderColor 153 101 21
 	SetBackgroundColor 200 0 0
+	SetFontSize 34
 	
 Show
 	BaseType "Chaos Orb" "Gemcutter's Prism" "Regal Orb" "Orb of Alchemy" "Vaal Orb" "Orb of Regret"
 	SetTextColor 255 255 255
 	SetBorderColor 128 128 128
 	SetBackgroundColor 200 0 0
+	SetFontSize 34
 	
 Show
-	BaseType "Scroll"
+	BaseType "Chaos Orb" "Gemcutter's Prism" "Regal Orb" "Orb of Alchemy" "Vaal Orb" "Orb of Regret"
 	SetTextColor 255 255 255
-	SetBorderColor 0 0 0
-	SetBackgroundColor 32 64 0
+	SetBorderColor 128 128 128
+	SetBackgroundColor 200 0 0
 	SetFontSize 28
 
 Show
@@ -57,6 +61,14 @@ Show
 	SetBackgroundColor 128 0 0
 	SetFontSize 28
 	
+Show
+	BaseType "Scroll"
+	SetTextColor 255 255 255
+	SetBorderColor 0 0 0
+	SetBackgroundColor 32 64 0
+	SetFontSize 28
+	
+#----- Maps/Jewels/Cards -----#
 Show
 	Class Map
 	DropLevel >= 75
@@ -72,7 +84,6 @@ Show
 	
 Show
 	Class Jewel
-	SetTextColor 0 0 0
 	SetBorderColor 0 0 0
 	SetBackgroundColor 0 128 128
 	
@@ -88,13 +99,6 @@ Show
 	SetTextColor 255 255 255
 	SetBorderColor 128 128 128
 	SetBackgroundColor 160 0 0
-	
-Show
-	LinkedSockets >= 5
-	SetTextColor 255 255 255
-	SetBorderColor 128 128 128
-	SetBackgroundColor 0 0 0
-	SetFontSize 24
 
 Show
 	Sockets >= 3
@@ -135,6 +139,13 @@ Show
 	SetBorderColor 128 128 128
 	SetBackgroundColor 255 255 255
 	
+Show
+	LinkedSockets >= 5
+	SetTextColor 255 255 255
+	SetBorderColor 128 128 128
+	SetBackgroundColor 0 0 0
+	SetFontSize 24
+	
 #----- Show General -----#
 Show
 	Rarity = Rare
@@ -148,33 +159,16 @@ Show
 	SetBorderColor 128 128 128
 
 Show
-	Class Flask
+	Class Flask "Utility Flask"
 	Rarity = Magic
-	SetTextColor 0 0 200
-	SetBorderColor 128 128 128
-	SetFontSize 28
-	
-Show
-	Class "Utility Flask"
-	Rarity = Magic
-	SetTextColor 0 0 200
-	SetBorderColor 128 128 128
-	SetFontSize 28
-	
-Show
-	Class "Utility Flask"
-	SetTextColor 0 0 0
-	SetBorderColor 0 0 0
 	SetBackgroundColor 128 128 128
 	SetFontSize 28
 	
 Show
-	Class Flask
-	SetTextColor 0 0 0
-	SetBorderColor 0 0 0
+	Class Flask "Utility Flask"
 	SetBackgroundColor 128 128 128
-	SetFontSize 20
+	SetFontSize 28
 	
 Show
 	SetTextColor 64 64 64
-	SetFontSize 20
+	SetFontSize 18
