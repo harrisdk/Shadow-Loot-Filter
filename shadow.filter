@@ -55,17 +55,17 @@ Show
 	SetFontSize 28
 
 Show
-	Class Currency
-	SetTextColor 255 255 255
-	SetBorderColor 0 0 0
-	SetBackgroundColor 128 0 0
-	SetFontSize 28
-	
-Show
 	BaseType "Scroll"
 	SetTextColor 255 255 255
 	SetBorderColor 0 0 0
 	SetBackgroundColor 32 64 0
+	SetFontSize 28
+	
+Show
+	Class Currency
+	SetTextColor 255 255 255
+	SetBorderColor 0 0 0
+	SetBackgroundColor 128 0 0
 	SetFontSize 28
 	
 #----- Maps/Jewels/Cards -----#
@@ -161,11 +161,13 @@ Show
 Show
 	Class Flask "Utility Flask"
 	Rarity = Magic
+	SetTextColor 0 0 200
 	SetBackgroundColor 128 128 128
 	SetFontSize 28
 	
 Show
 	Class Flask "Utility Flask"
+	SetTextColor 64 64 64
 	SetBackgroundColor 128 128 128
 	SetFontSize 28
 	
