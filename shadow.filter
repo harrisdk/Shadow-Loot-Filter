@@ -1,5 +1,5 @@
 # Shadow's Loot Filter
-# Version 2.0, 7-17-2015
+# Version 2.1, 7-20-2015
 
 #----- Unique -----#
 Show
@@ -41,17 +41,10 @@ Show
 	SetFontSize 34
 	
 Show
-	BaseType "Chaos Orb" "Gemcutter's Prism" "Regal Orb" "Orb of Alchemy" "Vaal Orb" "Orb of Regret"
+	BaseType "Orb of Alteration" "Orb of Transmutation" "Orb of Augmentation"
 	SetTextColor 255 255 255
-	SetBorderColor 128 128 128
-	SetBackgroundColor 200 0 0
-	SetFontSize 34
-	
-Show
-	BaseType "Chaos Orb" "Gemcutter's Prism" "Regal Orb" "Orb of Alchemy" "Vaal Orb" "Orb of Regret"
-	SetTextColor 255 255 255
-	SetBorderColor 128 128 128
-	SetBackgroundColor 200 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 128 0 0
 	SetFontSize 28
 
 Show
@@ -64,9 +57,9 @@ Show
 Show
 	Class Currency
 	SetTextColor 255 255 255
-	SetBorderColor 0 0 0
-	SetBackgroundColor 128 0 0
-	SetFontSize 28
+	SetBorderColor 128 128 128
+	SetBackgroundColor 200 0 0
+	SetFontSize 34
 	
 #----- Maps/Jewels/Cards -----#
 Show
@@ -81,6 +74,13 @@ Show
 	SetTextColor 0 0 0
 	SetBorderColor 0 0 0
 	SetBackgroundColor 128 0 128
+	
+Show
+	Class Jewel
+	Rarity Magic
+	SetTextColor 0 0 128
+	SetBorderColor 0 0 0
+	SetBackgroundColor 0 128 128
 	
 Show
 	Class Jewel
